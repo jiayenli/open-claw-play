@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2026-01-31
+
+### Changed
+- **Refactored to Full Vue 3 + Vite Architecture** ⚡
+  - Migrated from CDN-based Vue to full build setup
+  - Implemented proper component structure with `.vue` SFCs
+  - Integrated Vite as build tool for faster development
+  - Added Tailwind CSS with PostCSS processing
+  - Separated concerns: App.vue, JokeGenerator.vue, main.js, style.css
+  - Improved module organization and scalability
+
+### Added
+- Complete project setup with npm scripts (`npm run dev`, `npm run build`)
+- Proper Vue 3 Composition API with `<script setup>`
+- PostCSS and Tailwind CSS pipeline
+- Development server configuration for Codespaces
+- vite.config.js with Vue plugin support
+- Source directory structure (/src)
+
+### Technical Improvements
+- Better module bundling and tree-shaking
+- Faster hot module replacement (HMR) with Vite
+- Professional project structure for scaling
+- Proper CSS preprocessing with PostCSS
+
 ## [1.0.0] - 2026-01-31
 
 ### Added
